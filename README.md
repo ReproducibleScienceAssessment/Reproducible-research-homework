@@ -1,5 +1,20 @@
 # Reproducible research: version control and R
 
+## Question 4 
+
+1. Execute the code to produce the paths of two random walks. What do you observe?
+
+This code generates a series of random 'steps' after pulling from the function 500 times. The patterns of steps changes each time you run the code. The random walk model describes a sequence of points which are derived from the previous one by adding a random element. There is no systematic trend or pattern seen in the output of the model.
+
+It has generated 2 dataframes from the same model which are plotted. The axes are x and y coordinates for the 'step' of each time stamp (of which there are 500). These are shown by the colour gradient shown in the legend
+
+2. A random seed is a starting point or initial value used in random number generation or randomization processes within computer programs and statistical algorithms. It is a fixed value or set of values that serves as a basis for generating a sequence of random numbers or outcomes. Setting a random seed allows for reproducibility, meaning that if you use the same seed value, you will get the same sequence of random numbers or results each time you run the program or algorithm.
+
+3. see file (random_walk)
+
+4. 
+
+
 \# INSERT ANSWERS HERE #
 
 ## Instructions
