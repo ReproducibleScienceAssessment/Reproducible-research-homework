@@ -99,10 +99,7 @@ However, GitHub also has some limitations:
 
 
 
-
-
-
-Instructions for assessment follow:
+# Instructions for assessment now follow:
 
 
 ## Instructions
