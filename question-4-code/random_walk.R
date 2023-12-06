@@ -1,5 +1,5 @@
-#install.packages("ggplot2")
-#install.packages("gridExtra")
+install.packages("ggplot2")
+install.packages("gridExtra")
 
 library(ggplot2)
 library(gridExtra)
@@ -10,6 +10,7 @@ random_walk  <- function (n_steps) {
   
   df[1,] <- c(0,0,1)
   
+  set.seed(20)
   
   for (i in 2:n_steps) {
     
