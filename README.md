@@ -37,31 +37,33 @@ The linear model showed that the genome length is a significant predictor of vir
 
 4. Code to reproduce the graph: (also can be found on Q5 r code script)
 
-ggplot(cui_clean,
+   ggplot(cui_clean,
 
        aes(y = log(virion_volume_nm_nm_nm),
        
            x = log(genome_length_kb))) +
-  geom_point(size = 1.5) +
-  geom_smooth(method = "lm", size = 0.75) +
-  labs(
+           
+     geom_point(size = 1.5) +
   
-    x = "log [Genome length (kb)]",
+     geom_smooth(method = "lm", size = 0.75) +
+     labs(
+  
+       x = "log [Genome length (kb)]",
     
-    y = "log [Virion volume (nm3)]"
+       y = "log [Virion volume (nm3)]"
     
-  ) +
+     ) +
   
-  theme_bw()+
+     theme_bw()+
   
-      theme(axis.title.x = element_text(face = "bold", size=9),
+         theme(axis.title.x = element_text(face = "bold", size=9),
       
-    axis.title.y = element_text(face = "bold", size=9),
+       axis.title.y = element_text(face = "bold", size=9),
     
-    panel.grid.major = element_line(colour = "grey92", linewidth=0.3, linetype="solid"),
+       panel.grid.major = element_line(colour = "grey92", linewidth=0.3, linetype="solid"),
     
-    panel.grid.minor = element_line(colour = "grey92", linewidth=0.3, linetype="solid"),
-  )
+       panel.grid.minor = element_line(colour = "grey92", linewidth=0.3, linetype="solid"),
+     )
   
   
 5. Estimated volume for a virion with a genome length of 300 using equation of the regression line 
