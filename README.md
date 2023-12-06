@@ -4,6 +4,9 @@ Questions 1-3 access via this link:
 
 https://github.com/ReproducibleScienceAssessment/logistic_growth.git
 
+link to reproducible research homework for edits in Q4 and Q5:
+
+
 ## Question 4 
 
 1. Execute the code to produce the paths of two random walks. What do you observe?
