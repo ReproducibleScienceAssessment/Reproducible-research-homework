@@ -47,7 +47,7 @@ Volume = 6.697×10^(6) (rounded)
 
 ## Bonus: Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? What limitations do they have?
 
-Reproducibility is the ability of researchers to obtain the same results or findings that were reported in previous experiments using the same data and methods. Whereas replicability is the ability to conduct a similar experiment using different data or methods to obtain consistent results to those found in the original study. Reproducibility focuses mainly on the importance of sharing detailed methods and code which allows other scientists to replicate the experiment, in comparison to replicability which assesses the study's ability to be generalised, testing the phenomena or theory on other data to see if it is robust in other systems. 
+Reproducibility is the ability of researchers to obtain the same results or findings that were reported in previous experiments using the same data and methods. Whereas replicability is the ability to conduct a similar experiment using different data or methods to obtain consistent results to those found in the original study. Reproducibility focuses mainly on the importance of sharing detailed methods and code which allows other scientists to replicate the experiment, in comparison to replicability which assesses the study's ability to be generalised, testing the phenomena or theory on other data to see if it is robust in other systems (Mandel, 2018). 
 
 GitHub can be used to enhance the reproducibility and replicability of your work through:
 
@@ -65,6 +65,10 @@ However, GitHub also has some limitations:
 2. Understanding how GitHub functions can be confusing and therefore it introduces a steep learning curve for people on the projects who have not used it. Furthermore, it has limited customisability for companies with specific requirements
 
 3. Finally, GitHub is not accessible in all areas. It relies on fast internet connection in order to collaborate on a project and is not available in all areas of the world. Furthermore, more advanced features require a paid subscription which introduces further costs to the project
+
+References
+
+Mandel, J. 2018. '_Repeatbility and Reproducibility'. Journal of Quality Technology. Available at: https://www.tandfonline.com/doi/abs/10.1080/00224065.1972.11980520
 
 
 
