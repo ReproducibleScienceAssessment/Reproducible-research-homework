@@ -55,8 +55,8 @@ confint(mod1)
     
 #finding an estimated volume for a virion with a genome length of 300 kb 
 L=300
-B= 1182
-lnV <- 1.5*log(L) + log(B)
+B= 1181.8
+lnV <- 1.5152*log(L) + log(B)
 lnV
 exp(lnV)
 
