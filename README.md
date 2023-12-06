@@ -4,10 +4,6 @@ Questions 1-3 access via this link:
 
 https://github.com/ReproducibleScienceAssessment/logistic_growth.git
 
-Link to reproducible research homework for edits in Q4 and Q5:
-
-https://github.com/ReproducibleScienceAssessment/Reproducible-research-homework.git
-
 
 ## Question 4 
 
