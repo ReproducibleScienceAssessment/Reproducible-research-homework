@@ -41,34 +41,8 @@ intercept (scaling factor) = ln($\beta$) = e^(7.0748) = 1181.8
 The linear model showed that the genome length is a significant predictor of virion volume (p<0.001, R2 = 0.71, slope = 1.52). The model accounted for 71% of the data. These values are the same as the paper for the subset of dsDNA strands that they analysed. This is expected as a linear model should produce the same predicted values when fitted to the same data set repeatedly 
 
 4. Code to reproduce the graph: (also can be found on Q5 r code script)
-
-   ggplot(cui_clean,
-
-       aes(y = log(virion_volume_nm_nm_nm),
-       
-           x = log(genome_length_kb))) +
-           
-     geom_point(size = 1.5) +
-  
-     geom_smooth(method = "lm", size = 0.75) +
-     labs(
-  
-       x = "log [Genome length (kb)]",
-    
-       y = "log [Virion volume (nm3)]"
-    
-     ) +
-  
-     theme_bw()+
-  
-         theme(axis.title.x = element_text(face = "bold", size=9),
-      
-       axis.title.y = element_text(face = "bold", size=9),
-    
-       panel.grid.major = element_line(colour = "grey92", linewidth=0.3, linetype="solid"),
-    
-       panel.grid.minor = element_line(colour = "grey92", linewidth=0.3, linetype="solid"),
-     )
+   
+<img width="650" alt="Screenshot 2023-12-06 at 15 32 50" src="https://github.com/ReproducibleScienceAssessment/Reproducible-research-homework/assets/150151519/261d9d76-b7ed-41fd-8a17-a06a96867ce3">
   
   
 5. Estimated volume for a virion with a genome length of 300 using equation of the regression line 
