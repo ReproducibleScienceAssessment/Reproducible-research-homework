@@ -12,8 +12,14 @@ It has generated 2 dataframes from the same model which are plotted. The axes ar
 
 3. see file (random_walk)
 
-4. 
+4. comparison of random_walk commits
+   
+<img width="1212" alt="Screenshot 2023-12-06 at 11 47 18" src="https://github.com/skystewartroberts/Reproducible-research-homework/assets/150151519/9c4f3c41-a0f4-459d-ba51-455ad82952e3">
 
+
+## Question 5
+
+1. 33 rows and 13 columns
 
 \# INSERT ANSWERS HERE #
 
