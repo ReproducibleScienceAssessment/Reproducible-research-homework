@@ -21,6 +21,8 @@ It has generated 2 dataframes from the same model which are plotted. The axes ar
 
 1. 33 rows and 13 columns
 
+2. we have fit a log transformation to the data so we can fit a linear model 
+
 \# INSERT ANSWERS HERE #
 
 ## Instructions
