@@ -65,7 +65,7 @@ ggplot(cui_clean,
   
 5. Estimated volume for a virion with a genome length of 300 using equation of the regression line 
 
-Volume = 6.696966×10^(6)
+Volume = 6.697×10^(6) (rounded)
 
 
 ## Bonus: Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? What limitations do they have?
@@ -76,15 +76,21 @@ GitHub can be used to enhance the reproducibility and replicability of your work
 
 1. Tracking changes - Git allows you to track and document changes in the code, including who made the changes and when. This also allows previous versions to be recovered if a mistake is made and shows how the project has evolved.
 
-2. Collaboration - Git allows multiple people to collaborate on files, and tracking who makes changes to which file
+2. Collaboration - Git allows multiple people to collaborate on files simultaneously, and tracks who makes changes to which file. It can also separate projects using channels which allows differentiation between different experiments for larger projects 
+
+3. Data and code sharing - Git can be used as a public platform in which you can sharing code and data with the wider scientific community. This increases accessibility and transparency within the experiment and allows others to replicated the study
+
+
+However, GitHub also has some limitations:
+
+1. It imposes storage limits on all accounts therefore projects with large amounts of data will run into problems 
+
+2. Understanding how GitHub functions can be confusing and therefore it introduces a steep learning curve for people on the projects who have not used it. Furthermore, it has limited customisability for companies with specific requirements
+
+3. Finally, GitHub is not accessible in all areas. It relies on fast internet connection in order to collaborate on a project and is not available in all areas of the world. Furthermore, more advanced features require a paid subscription which introduces further costs to the project
 
 
 
-
-
-
-
-\# INSERT ANSWERS HERE #
 
 ## Instructions
 
