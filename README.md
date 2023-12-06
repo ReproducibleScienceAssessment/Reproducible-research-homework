@@ -4,7 +4,9 @@ Questions 1-3 access via this link:
 
 https://github.com/ReproducibleScienceAssessment/logistic_growth.git
 
-link to reproducible research homework for edits in Q4 and Q5:
+Link to reproducible research homework for edits in Q4 and Q5:
+
+https://github.com/ReproducibleScienceAssessment/Reproducible-research-homework.git
 
 
 ## Question 4 
@@ -96,6 +98,8 @@ However, GitHub also has some limitations:
 3. Finally, GitHub is not accessible in all areas. It relies on fast internet connection in order to collaborate on a project and is not available in all areas of the world. Furthermore, more advanced features require a paid subscription which introduces further costs to the project
 
 
+
+Instructions for assessment follow:
 
 
 ## Instructions
