@@ -33,28 +33,52 @@ The linear model showed that the genome length is a significant predictor of vir
 
 4. Code to reproduce the graph: (also can be found on Q5 r code script)
 
-ggplot(cui_clean, 
+ggplot(cui_clean,
+
        aes(y = log(virion_volume_nm_nm_nm),
+       
            x = log(genome_length_kb))) +
+           
   geom_point(size = 1.5) +
+  
   geom_smooth(method = "lm", size = 0.75) +
+  
   labs(
+  
     x = "log [Genome length (kb)]",
+    
     y = "log [Virion volume (nm3)]"
+    
   ) +
+  
   theme_bw()+
+  
       theme(axis.title.x = element_text(face = "bold", size=9),
+      
     axis.title.y = element_text(face = "bold", size=9),
+    
     panel.grid.major = element_line(colour = "grey92", linewidth=0.3, linetype="solid"),
+    
     panel.grid.minor = element_line(colour = "grey92", linewidth=0.3, linetype="solid"),
   )
   
+  
 5. Estimated volume for a virion with a genome length of 300 using equation of the regression line 
 
-Volume = 6.141871×10^(6)
+Volume = 6.696966×10^(6)
 
 
 ## Bonus: Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? What limitations do they have?
+
+Reproducibility is the ability of researchers to obtain the same results or findings that were reported in previous experiments using the same data and methods. Whereas replicability is the ability to conduct a similar experiment using different data or methods to obtain consistent results to those found in the original study. Reproducibility focuses mainly on the importance of sharing detailed methods and code which allows other scientists to replicate the experiment, in comparison to replicability which assesses the study's ability to be generalised, testing the phenomena or theory on other data to see if it is robust in other systems. 
+
+GitHub can be used to enhance the reproducibility and replicability of your work through:
+
+1. Tracking changes - Git allows you to track and document changes in the code, including who made the changes and when. This also allows previous versions to be recovered if a mistake is made and shows how the project has evolved.
+
+2. Collaboration - Git allows multiple people to collaborate on files, and tracking who makes changes to which file
+
+
 
 
 
