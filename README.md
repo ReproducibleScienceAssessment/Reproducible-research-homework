@@ -1,5 +1,9 @@
 # Reproducible research: version control and R
 
+Questions 1-3 access via this link:
+
+https://github.com/ReproducibleScienceAssessment/logistic_growth.git
+
 ## Question 4 
 
 1. Execute the code to produce the paths of two random walks. What do you observe?
@@ -38,11 +42,8 @@ ggplot(cui_clean,
        aes(y = log(virion_volume_nm_nm_nm),
        
            x = log(genome_length_kb))) +
-           
   geom_point(size = 1.5) +
-  
   geom_smooth(method = "lm", size = 0.75) +
-  
   labs(
   
     x = "log [Genome length (kb)]",
