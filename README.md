@@ -12,7 +12,52 @@ It has generated 2 dataframes from the same model which are plotted. The axes ar
 
 3. see file (random_walk)
 
-4. 
+4. comparison of random_walk commits
+   
+<img width="1212" alt="Screenshot 2023-12-06 at 11 47 18" src="https://github.com/skystewartroberts/Reproducible-research-homework/assets/150151519/9c4f3c41-a0f4-459d-ba51-455ad82952e3">
+
+
+## Question 5
+
+1. 33 rows and 13 columns
+
+2. we have fit a log transformation to the data so we can fit a linear model 
+
+3. finding the exponent and scaling factor 
+
+slope (exponent) = $\alpha$ = 1.5152 
+
+intercept (scaling factor) = ln($\beta$) = e^(7.0748) = 1181.8
+
+The linear model showed that the genome length is a significant predictor of virion volume (p<0.001, R2 = 0.71, slope = 1.52). The model accounted for 71% of the data. These values are the same as the paper for the subset of dsDNA strands that they analysed. This is expected as a linear model should produce the same predicted values when fitted to the same data set repeatedly 
+
+4. Code to reproduce the graph: (also can be found on Q5 r code script)
+
+ggplot(cui_clean, 
+       aes(y = log(virion_volume_nm_nm_nm),
+           x = log(genome_length_kb))) +
+  geom_point(size = 1.5) +
+  geom_smooth(method = "lm", size = 0.75) +
+  labs(
+    x = "log [Genome length (kb)]",
+    y = "log [Virion volume (nm3)]"
+  ) +
+  theme_bw()+
+      theme(axis.title.x = element_text(face = "bold", size=9),
+    axis.title.y = element_text(face = "bold", size=9),
+    panel.grid.major = element_line(colour = "grey92", linewidth=0.3, linetype="solid"),
+    panel.grid.minor = element_line(colour = "grey92", linewidth=0.3, linetype="solid"),
+  )
+  
+5. Estimated volume for a virion with a genome length of 300 using equation of the regression line 
+
+Volume = 6.141871×10^(6)
+
+
+## Bonus: Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? What limitations do they have?
+
+
+
 
 
 \# INSERT ANSWERS HERE #
